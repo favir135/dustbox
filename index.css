@@ -1,29 +1,14 @@
-@media screen and (max-width: 959px)　{
-  .header{
-    display:flex;
-    background-color:#ff9999;
-    border-top:solid thin #000000;
-  }
-  .title{
-    font-size:200%;
-  }
-  .footer{
-    display:flex;
-    border-top:solid thin #000000;
-  }
-}
-@media screen and (min-width: 960px)　{
-  .header{
-    display:flex;
-    background-color:#ff9999;
-    border-top:solid thin #000000;
-  }
-  .title{
-    font-size:200%;
-  }
-  .footer{
-    display:flex;
-    border-top:solid thin #000000;
-  }
 
-}
+
+  .header{
+    display:flex;
+    background-color:#ff9999;
+    border-top:solid thin #000000;
+  }
+  .title{
+    font-size:200%;
+  }
+  .footer{
+    display:flex;
+    border-top:solid thin #000000;
+  }
