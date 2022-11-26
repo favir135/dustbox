@@ -1,12 +1,16 @@
 
-
+.body{
+  background-color:#333333;
+  color:#ffffff;
+}
   .header{
     display:flex;
-    background-color:#ff9999;
-    border-top:solid thin #000000;
+    background-color:#9999ff;
+    border-bottom:solid thin #000000;
   }
   .title{
     font-size:200%;
+    margin:auto 1em;
   }
   .footer{
     display:flex;
