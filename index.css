@@ -11,7 +11,7 @@ body{
   }
   .title{
     font-size:200%;
-    margin:auto 1em;
+    margin-right:1em;
   }
   .footer{
     display:flex;
