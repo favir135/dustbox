@@ -5,9 +5,9 @@ body{
 }
   .header{
     display:flex;
-    background-color:#9999ff;
-    border-bottom:solid thin #999999;
+    background-color:#333366;
     align-items:flex-end;
+    margin:0px 0px;
   }
   .title{
     font-size:200%;
