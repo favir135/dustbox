@@ -1,11 +1,10 @@
 
 body{
-  background-color:#222222;
-  color:#ffffff;
 }
   .header{
     display:flex;
     background-color:#333366;
+    color:#ffffff;
     align-items:flex-end;
     margin:0% 0%;
   }
