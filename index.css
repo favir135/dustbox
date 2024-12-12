@@ -1,5 +1,6 @@
 
 body{
+  max-width :50em;
 }
   .header{
     display:flex;
