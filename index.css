@@ -1,7 +1,30 @@
 
 body{
-  max-width :50em;
+  max-width :40em;
   margin: 0 auto;
+  line-height: 2;
+  font-family: "Noto Serif JP", serif;
+}
+h1{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+}
+h2{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+}
+h3{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+}
+p{
+  
+  font-optical-sizing: auto;
+  font-style: normal;
+  
 }
   .header{
     display:flex;
@@ -9,6 +32,7 @@ body{
     color:#ffffff;
     align-items:flex-end;
     margin:0% 0%;
+    line-height: normal;
   }
   .title{
     font-size:200%;
