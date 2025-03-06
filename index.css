@@ -1,72 +1,90 @@
-body{
+body {
   padding: 0 0;
-  margin:0 0;
-  font-family: "Noto Serif JP";
-  display:flex;
+  margin: 0 0;
+  font-family: serif;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   line-height: 2;
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-h1, h2, h3, h4, h5, h6{
-  font-family: "Noto Sans JP";
-  font-optical-sizing: auto;
-  font-weight: 500;
-}
-  .header{
-    display:flex;
-    justify-content:center;
-    background-color:#333366;
-    color:#ffffff;
-    margin:0% auto;
-    line-height: 2;
-  }
-  .title{
-    font-size:2rem;
-    margin-right:0.5em;
-    color:#ffffff;
-    text-decoration:none;
-  }
-  .description{
-    font-size:1rem;
-    color:#ffffff;
-    text-decoration:none;
-    vertical-align: bottom;
-    margin: auto 0 0.5rem 0;
-  }
-  .main,.footertext{
-    max-width :40rem;
-    padding:0 0.5rem;
-    margin: 0 auto;
-    text-align: left;
-  }
-  .footer{
-    padding: 0 0;
-    border-top:solid thin #999999;
-    margin: 0 auto 5.5rem auto;
-  }
-  
-  .leftvoid, .rightvoid{
-    background-color: #000000;
-    flex:1;
-  }
-  .mannaka{
-    flex-basis: 52rem;
-    min-height:100vh;
-  }
 
-  img{
-    display :block;
-    margin: 0 auto;
-  }
-  .image{
-    margin: 0 auto;
-    text-align: center;
-    font-size: 0.9rem;
-  }
-  .imgnum{
-    font-weight: 500;
-    font-family: "Noto Sans JP";
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #333366;
+  color: #ffffff;
+  margin: 0% auto;
+  line-height: 2;
+}
+
+.title {
+  font-size: 2rem;
+  margin-right: 0.5em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: bottom;
+  margin: auto 0 0.5rem 0;
+}
+
+.main,
+.footertext {
+  max-width: 40rem;
+  padding: 0 0.5rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer {
+  padding: 0 0;
+  border-top: solid thin #999999;
+  margin: 0 auto 5.5rem auto;
+}
+
+.leftvoid,
+.rightvoid {
+  background-color: #00c0c0;
+  flex: 1;
+}
+
+.mannaka {
+  flex-basis: 52rem;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: min(100%, 40rem);
+  margin: 0 auto;
+}
+
+.image {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.imgnum {
+  font-weight: 500;
+  font-family: serif;
+}
+
 /*{outline:1px solid #00ffFF}
