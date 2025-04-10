@@ -8,6 +8,8 @@ body {
   line-height: 2;
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  color: #00475e;
+
 }
 
 h1,
@@ -24,7 +26,7 @@ h6 {
 .header {
   display: flex;
   justify-content: center;
-  background-color: #333366;
+  background-color: #1c548c;
   color: #ffffff;
   margin: 0% auto;
   line-height: 2;
@@ -50,7 +52,7 @@ h6 {
   max-width: 40rem;
   padding: 0 0.5rem;
   margin: 0 auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .footer {
@@ -59,11 +61,18 @@ h6 {
   margin: 0 auto 5.5rem auto;
 }
 
-.leftvoid,
-.rightvoid {
-  background-color: #00c0c0;
+.leftvoid {
+  border-right: solid thin #00a3a3;
+  background-color: #99ffff;
   flex: 1;
 }
+
+.rightvoid {
+  border-left: solid thin #00a3a3;
+  background-color: #99ffff;
+  flex: 1;
+}
+
 
 .mannaka {
   flex-basis: 52rem;
@@ -85,6 +94,11 @@ img {
 .imgnum {
   font-weight: 500;
   font-family: serif;
+}
+
+strong,
+b {
+  font-family: sans-serif;
 }
 
 /*{outline:1px solid #00ffFF}
