@@ -4,27 +4,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-  <title>ゴミ置き場</title>
-
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div class="leftvoid"></div>
-  <div class="mannaka">
-    <div class="header"><a href="index.html" class="title">ゴミ置き場</a>
-      <div class="description">ゴミ置き場です。</div>
-    </div>
-    <div class="main">
-      <a href="index.html">トップに戻る</a>
-      <h1>テンプレート</h1>
-      <p>あいうえお</p>
-    </div>
-    <div class="footer">
-      <div class="footertext">2022 ゴミ置き場</div>
-    </div>
+  <div class="header">
+    <a href="index.html" class="title">ゴミ置き場</a>
+    <div class="description">ゴミ置き場です。</div>
   </div>
-  <div class="rightvoid"></div>
+  <div class="middle">
+    <div class="leftvoid"></div>
+    <div class="mannaka">
+      <div class="mainbox">
+        <div id="main">
+          {{ content }}
+        </div>
+      </div>
+
+    </div>
+    <div class="rightvoid"></div>
+  </div>
+  <div class="footer">
+    <div class="footertext">2022 著作権なんてものはない</div>
+  </div>
+
 </body>
+
+
 
 </html>
