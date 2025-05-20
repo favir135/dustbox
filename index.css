@@ -4,8 +4,8 @@ body {
   font-family: sans-serif;
   line-height: 2;
   /*color: #00475e;*/
-  color: #575757;
-  background-color: #f0ffff;
+  color: #635655;
+  background-color: #fdffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,9 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
+  border-top: solid #d9fbff;
+  border-bottom: solid #d9fbff;
+  border-width: 0.5rem;
 }
 
 h1,
@@ -27,34 +30,36 @@ h6 {
   font-family: sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
-  color: #008091;
+  color: #345b82;
   box-sizing: border-box;
 }
 
 h1 {
   padding-left: 0.5em;
   padding-right: 0.5em;
-  color: #ffffff;
-  background: #00a0b5;
-  border-radius: 0.5em;
+  /*color: #ffffff;*/
+  /*background: #00a2b8;*/
+  background: #fff;
+  color: #345b82;
+  border-left: solid thick #95dde6;
 }
 
 h2 {
-  border-bottom: solid #00a0b5;
+  border-bottom: solid #95dde6;
 }
 
 h3 {
-  border-bottom: dotted #00a0b5;
+  border-bottom: dotted #95dde6;
 }
 
 a {
-  color: #008091;
-  text-decoration: underline solid #99cccc;
+  color: #345b82;
+  text-decoration: underline solid #95dde6;
 }
 
 a:visited {
-  color: #008091;
-  text-decoration: underline solid #99cccc;
+  color: #345b82;
+  text-decoration: underline solid #95dde6;
 }
 
 .header {
@@ -62,10 +67,9 @@ a:visited {
   justify-content: center;
   /*background-color: #1c548c;*/
   background-color: #ffffff;
-  color: #0057ad;
   margin: 0 0;
   line-height: 2;
-  border-bottom: solid #99cccc;
+  border-bottom: solid #e6e6b8;
 }
 
 .title:visited {
@@ -89,7 +93,7 @@ a:visited {
 
 .mainbox {
   max-width: 40rem;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem 0 0.5rem;
   margin: 0 auto;
   text-align: justify;
   display: flex;
@@ -97,8 +101,8 @@ a:visited {
 }
 
 .footer {
-  border-top: solid #99cccc;
-  background-color: #fcfcfc;
+  border-top: solid thin #0057ad;
+  background-color: #fff;
   text-align: center;
   padding-bottom: 2rem;
 
@@ -106,20 +110,34 @@ a:visited {
 
 .leftvoid {
   /*border-right: solid thin #00a3a3;*/
-  background-color: #ddd;
+  background-color: #d9fbff;
+  min-width: 0.5rem;
   flex: 1;
 }
 
 .rightvoid {
   /*border-left: solid thin #00a3a3;*/
-  background-color: #ddd;
+  background-color: #d9fbff;
+  min-width: 0.5rem;
   flex: 1;
 }
 
+/*
+@media screen and (min-width:52rem) {
+  .leftvoid {
+    border-right: solid thin #0057ad;
+  }
+
+  .rightvoid {
+    border-left: solid thin #0057ad;
+  }
+}*/
 
 .mannaka {
   flex-basis: 52rem;
   padding-bottom: auto;
+  border: solid #b8e0e6;
+  border-radius: 0.5rem;
 }
 
 img {
@@ -134,15 +152,15 @@ img {
   font-size: 0.9rem;
 }
 
-.imgnum {
-  font-weight: 500;
-  font-family: serif;
-}
 
 strong,
 b {
   font-family: sans-serif;
-  color: #008282;
+  color: #345b82;
+}
+
+::marker {
+  color: #00cbe6;
 }
 
 /* {
