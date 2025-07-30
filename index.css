@@ -1,3 +1,9 @@
+:root {
+  --bg_1: #c0def0;
+  --midashi: #2876c8;
+  --mizuiro: #99ccff;
+}
+
 body {
   padding: 0 0;
   margin: 0 0;
@@ -18,8 +24,9 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
-  border-top: solid #d9fbff;
-  border-bottom: solid #d9fbff;
+  background: var(--bg_1);
+  border-top: solid var(--bg_1);
+  border-bottom: solid var(--bg_1);
   border-width: 0.5rem;
 }
 
@@ -32,36 +39,36 @@ h6 {
   font-family: sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
-  color: #345b82;
+  color: var(--midashi);
   box-sizing: border-box;
 }
 
 h1 {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  /*color: #ffffff;*/
+
+  color: #ffffff;
   /*background: #00a2b8;*/
-  background: #fff;
-  color: #345b82;
-  border-left: solid thick #95dde6;
+  background: #2876c8;
+  padding-left: 0.5em;
+  border-bottom: double 6px #fff;
+  border-top: double 6px #fff;
 }
 
 h2 {
-  border-bottom: solid #95dde6;
+  border-bottom: solid var(--mizuiro);
 }
 
 h3 {
-  border-bottom: dotted #95dde6;
+  border-bottom: dashed var(--mizuiro);
 }
 
 a {
-  color: #345b82;
-  text-decoration: underline solid #95dde6;
+  color: var(--midashi);
+  text-decoration: underline solid var(--mizuiro);
 }
 
 a:visited {
-  color: #345b82;
-  text-decoration: underline solid #95dde6;
+  color: var(--midashi);
+  text-decoration: underline solid var(--mizuiro);
 }
 
 .header {
@@ -71,16 +78,16 @@ a:visited {
   background-color: #ffffff;
   margin: 0 0;
   line-height: 2;
-  border-bottom: solid #e6e6b8;
+  border-bottom: solid 3px #e0e0b1;
 }
 
 .title:visited {
-  color: #0057ad;
+  color: var(--midashi);
 }
 
 .title {
   font-size: 2rem;
-  color: #0057ad;
+  color: var(--midashi);
   margin-right: 0.5em;
   text-decoration: none;
 }
@@ -103,7 +110,7 @@ a:visited {
 }
 
 .footer {
-  border-top: solid thin #0057ad;
+  border-top: solid 3px #b8e0e6;
   background-color: #fff;
   text-align: center;
   padding-bottom: 2rem;
@@ -112,14 +119,14 @@ a:visited {
 
 .leftvoid {
   /*border-right: solid thin #00a3a3;*/
-  background-color: #d9fbff;
+  background-color: var(--bg_1);
   min-width: 0.5rem;
   flex: 1;
 }
 
 .rightvoid {
   /*border-left: solid thin #00a3a3;*/
-  background-color: #d9fbff;
+  background-color: var(--bg_1);
   min-width: 0.5rem;
   flex: 1;
 }
@@ -138,7 +145,8 @@ a:visited {
 .mannaka {
   flex-basis: 52rem;
   padding-bottom: auto;
-  border: solid #b8e0e6;
+  border: solid #a3bccc;
+  background: #fff;
   border-radius: 0.5rem;
 }
 
@@ -158,11 +166,26 @@ img {
 strong,
 b {
   font-family: sans-serif;
-  color: #345b82;
+  color: var(--midashi);
 }
 
+/*ul {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+li {
+  list-style: none;
+  padding-left: 1.5rem;
+  background-image: url(assets/mizuiro_heart.png);
+  background-size: 1rem;
+  background-position-x: left;
+  background-position-y: 0.5rem;
+  background-repeat: no-repeat;
+}*/
+
 ::marker {
-  color: #00cbe6;
+  color: #60a8f0;
 }
 
 /* {
