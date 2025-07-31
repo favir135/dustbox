@@ -1,9 +1,9 @@
 :root {
-  --bg_1: #ccdef0;
+  --bg_1: #ccf1ff;
   --midashi: #2876c8;
-  --mizuiro: #99ccff;
-  --shade: #bac9db;
-  --bloom: #dce7f5;
+  --mizuiro: #66d9ff;
+  --shade: #badce8;
+  --bloom: #e6f9ff;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   font-family: sans-serif;
   line-height: 2;
   /*color: #00475e;*/
-  color: #635655;
+  color: #635550;
   background-color: var(--bg_1);
   min-height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: row;
   background: var(--bg_1);
-  margin: 0.5rem;
+  margin: 10px 8px;
 }
 
 h1,
@@ -48,7 +48,7 @@ h1 {
   color: #ffffff;
   /*background: #00a2b8;*/
   background: #2876c8;
-  padding-left: 0.5em;
+  padding: 0 0.5em;
   border-bottom: double 6px #fff;
   border-top: double 6px #fff;
 }
@@ -188,7 +188,7 @@ li {
 }*/
 
 ::marker {
-  color: #60a8f0;
+  color: var(--mizuiro);
 }
 
 /*{
