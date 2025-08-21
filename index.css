@@ -1,9 +1,9 @@
 :root {
-  --bg_1: #ccf1ff;
+  --bg_1: #c7eaff;
   --midashi: #2876c8;
-  --mizuiro: #66d9ff;
-  --shade: #badce8;
-  --bloom: #e6f9ff;
+  --mizuiro: #80d0ff;
+  --shade: #b3d3e6;
+  --bloom: #e3f5ff;
 }
 
 body {
@@ -78,7 +78,7 @@ a:visited {
   background-color: #ffffff;
   margin: 0 0;
   line-height: 2;
-  box-shadow: 2px 2px 2px 0 var(--shade);
+  box-shadow: 0px 2px 4px 2px var(--shade);
   border-bottom: solid 1px var(--bloom);
 }
 
@@ -111,11 +111,11 @@ a:visited {
 }
 
 .footer {
-  border-top: solid thin #dce7f5;
+  border-top: solid 1px var(--bloom);
   background-color: #fff;
   text-align: center;
   padding-bottom: 2rem;
-
+  box-shadow: 0px 2px 4px 2px var(--shade);
 }
 
 .leftvoid {
@@ -150,7 +150,7 @@ a:visited {
   border: solid 1px var(--bloom);
   border-radius: 0.5rem;
   background: #fff;
-  box-shadow: 2px 2px 2px 0 var(--shade);
+  box-shadow: 2px 2px 4px 2px var(--shade);
 }
 
 img {
@@ -188,7 +188,7 @@ li {
 }*/
 
 ::marker {
-  color: #ff99cc;
+  color: var(--mizuiro);
 }
 
 /*{
